@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Abel';
+    src: url('Abel-Regular.ttf') format('truetype');
+url('Abel-Regular.woff') format('woff'),
+url('Abel-Regular.ttf') format('truetype'),
+url('Abel-Regular.svg') format('svg');
+}
+
+body{
+    background-image: url("../../assets/images/Inauv-Fond-Gris.jpg");
+}
+
+h2{
+    font-family: Abel, serif;
+    font-size: 200%;
+}
+
+.inscript{
+    width: 20%;
+    position: absolute;
+    left: 38%;
+    background: aliceblue;
+    border-radius: 3px;
+}
+
+.err{
+    font-family: Arial, serif;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+}
+
+table{
+    font-family: Arial, serif;
+}

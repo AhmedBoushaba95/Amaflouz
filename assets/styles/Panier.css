@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Source Pro';
+    src: url('SourceSansPro-Regular.ttf') format('truetype');
+url('SourceSansPro-Regular.woff') format('woff'),
+url('SourceSansPro-Regular.ttf') format('truetype'),
+url('SourceSansPro-Regular.svg') format('svg');
+}
+
+.item1 {
+    display: inline-block;
+    width: 55%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    background-color: white;
+    border-radius: 2px;
+    border: solid 1.5px;
+    border-color: #a9a8a8;
+}
+
+.item2 {
+    display: inline-block;
+    width: 55%;
+    height: 40%;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    background-color: white;
+    border-radius: 2px;
+    border: solid 1.5px;
+    border-color: #a9a8a8;
+}
+
+.produit {
+    width: 170px;
+    position: absolute;
+    top: 95px;
+    left: 20px;
+}
+
+.prix {
+    font-family: Source Pro, serif;
+    font-size: 25px;
+    color: #31b2bf;
+    position: absolute;
+    right: 4%;
+    top: 19%;
+}
+
+.nom {
+    font-family: Source Pro, serif;
+    position: absolute;
+    left: 27%;
+    bottom: 66%;
+    font-size: 25px;
+}
+
+.note {
+    color: #292929;
+    font-family: arial;
+    position: absolute;
+    left: 10px;
+}
+
+.dess {
+    font-family: Arial, serif;
+    color: #a9a8a8;
+    position: absolute;
+    text-align: center;
+    left: 26%;
+    top: 36%;
+}
+
+.item1 li {
+    border: solid 2px;
+    border-radius: 3px;
+    border-color: #a9a8a8;
+}
+
+.item1 ul {
+    position: absolute;
+    bottom: 39%;
+    right: 3%;
+    list-style: none;
+    height: 10%;
+    font-size: 24px;
+}
+
+.item2 li {
+    border: solid 2px;
+    border-radius: 3px;
+    border-color: #a9a8a8;
+}
+
+.item2 ul {
+    position: absolute;
+    bottom: 39%;
+    right: 3%;
+    list-style: none;
+    height: 10%;
+    font-size: 24px;
+}
+
+.quan {
+    font-size: 16px;
+}
+
+.supp {
+    font-family: Arial, serif;
+    font-size: xx-large;
+    color: #31b2bf;
+    position: absolute;
+    right: 1%;
+}
+
+.recup {
+    display: inline-block;
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    background-color: white;
+    border-radius: 2px;
+    border: solid 1.5px;
+    border-color: #a9a8a8;
+}
+
+h2 {
+    font-family: Source Pro, serif;
+    position: absolute;
+    left: 1%;
+}
+
+.txt {
+    font-family: Arial, serif;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+.txt2 {
+    font-family: Arial, serif;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+}
+
+.tot {
+    font-family: Arial,serif;
+    position: absolute;
+    top: 65%;
+    left: 0%;
+    font-weight: bolder;
+    background-color: #a9a8a8;
+    width: 100%;
+}
+.prixtot{
+    position: absolute;
+    right: 2%;
+    top: 13%;
+}
+
+.noco{
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    font-size: 200%;
+}
