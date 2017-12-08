@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'Abel';
+    src: url('Abel-Regular.ttf') format('truetype');
+url('Abel-Regular.woff') format('woff'),
+url('Abel-Regular.ttf') format('truetype'),
+url('Abel-Regular.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Source Pro';
+    src: url('SourceSansPro-Regular.ttf') format('truetype');
+url('SourceSansPro-Regular.woff') format('woff'),
+url('SourceSansPro-Regular.ttf') format('truetype'),
+url('SourceSansPro-Regular.svg') format('svg');
+}
+
+h1 {
+    font-family: Abel, serif;
+    color: whitesmoke;
+    font-size: 200%;
+}
+
+body {
+    background-image: url("../images/Inauv-Fond-Gris.jpg");
+    background-size: cover;
+}
+
+.nav {
+    z-index: 999;
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Source Pro, serif;
+}
+
+.nav ul li {
+    float: left;
+    width: 118px;
+    height: 37px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    display: block;
+}
+
+.nav ul li a:hover {
+    background-color: #245170;
+}
+
+.nav ul li ul li {
+    display: none;
+    font-size: 15px;
+    opacity: .99;
+}
+
+.nav ul li:hover ul li {
+    display: block;
+    background-color: #353535;
+}
+
+.bloc {
+    z-index: 999;
+    display: inline-block;
+    height: 25%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #292929;
+}
+
+.nav {
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    left: 35%;
+    bottom: 2%;
+}
+
+.barre {
+    width: 34%;
+    position: absolute;
+    left: 34%;
+    top: 50%;
+}
+
+.champ {
+    height: 40px;
+    width: 67%;
+    opacity: 0.7;
+    font-size: 20px;
+}
+
+.Rech {
+    text-decoration: none;
+    font-family: Abel, serif;
+    font-size: 18px;
+    background-color: whitesmoke;
+    border: solid 1px;
+    border-radius: 2px;
+    padding: 12px 20px;
+    position: absolute;
+    left: 85%;
+    top: -2%;
+    box-shadow: 2px 1px 5px black;
+    color: black;
+    opacity: .8;
+}
+
+.log {
+    width: 17%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.sac {
+    width: 50px;
+    transition: all .5s;
+}
+
+.sac:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: all .5s;
+}
+
+.fav {
+    width: 45px;
+    padding-left: 10px;
+    transition: all .5s;
+}
+
+.fav:hover {
+    width: 43px;
+}
+
+.buis {
+    width: 8%;
+    position: absolute;
+    right: 1%;
+    bottom: 0;
+}
+
+.sams1 {
+    width: 18%;
+    position: absolute;
+    top: 27%;
+    left: 5%;
+    transition: all .5s;
+}
+
+.sams2 {
+    width: 19%;
+    position: absolute;
+    top: 29%;
+    left: 28%;
+    transition: all .5s;
+}
+
+.sams3 {
+    width: 18%;
+    position: absolute;
+    top: 29%;
+    right: 30%;
+    transition: all .5s;
+}
+
+.sams4 {
+    width: 18%;
+    position: absolute;
+    top: 29%;
+    right: 5%;
+    transition: all .5s;
+}
+
+.sams1:hover {
+    width: 150px;
+}
+
+.sams2:hover {
+    width: 160px;
+}
+
+.sams3:hover {
+    width: 150px;
+}
+
+.sams4:hover {
+    width: 150px;
+}
+
+.new {
+    display: inline-block;
+    width: 50%;
+    height: 38%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    background-color: white;
+    border: solid 1.5px;
+    border-color: #a9a8a8;
+    border-radius: 2px;
+}
+
+.new ul {
+    list-style: none;
+}
+
+.new ul li {
+    float: left;
+    width: 25%;
+    font-family: Source Pro, serif;
+    color: #5f5f5f;
+    font-size: 20px;
+    text-align: center;
+}
+
+.price {
+    width: 100%;
+    position: absolute;
+    bottom: 15%;
+    left: -4%;
+}
+
+.titre {
+    color: #3a81bf;
+    position: absolute;
+    left: 2%;
+    top: -3%;
+}
+
+.log a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.log ul li {
+    list-style: none;
+    float: left;
+    width: 50%;
+    font-family: Source Pro, serif;
+    font-size: 110%;
+}
+
+.trait {
+    width: 0px;
+    border-left: 1.2px solid gray;
+    height: 100%;
+    position: absolute;
+    left: 57%;
+    top: 4%;
+}
+
+.all {
+    display: inline-block;
+}
+
+.footer {
+    position: absolute;
+    bottom: -21%;
+    right: 40%;
+}

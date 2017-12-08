@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial,serif;
+}
+section {
+    width: 800px;
+    height: auto;
+    box-shadow: 1px 5px 10px #727482;
+    margin-top: 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 530px;
+}
+
+aside {
+    width: 450px;
+    height: auto;
+    float: left;
+    box-shadow: 1px 5px 10px #a2a2a2;
+    margin-left: 20px;
+    margin-top: -1212px;
+    top: 455px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+aside h1 {
+    background-color: #333333;
+    color: #fff;
+    font-family: myriad pro, serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    padding-left: 6px;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+article {
+    width: 900px;
+    margin-bottom: 35px;
+}
+
+article h1 {
+    color: #3a3a3a;
+    margin-top: 14px;
+}
+
+article p {
+    font-size: 15px;
+    font-family: myriad pro, serif;
+    text-align: justify;
+}
+
+#slideshow {
+    position: relative;
+    width: 800px;
+    height: 150px;
+    margin: 20px auto;
+    overflow: hidden;
+    left: 150px;
+}
+
+#sContent li {
+    display: inline;
+}
+
+#sContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 450px;
+    margin: 0;
+    padding: 0;
+
+    /*CSS3 keyframes animation*/
+    animation-name: AutoSlide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes AutoSlide {
+    0%, 15%, 100% {
+        left: 0px; /*1ère image*/
+    }
+    35%, 50% {
+        left: -120px; /*2ème image*/
+    }
+    70%, 85% {
+        left: -250px; /*3ème image*/
+    }
+}
+
+.taille {
+
+    border-radius: 2px;
+    width: 120px;
+    height: 130px;
+}
+
+.taille1 {
+
+    border-radius: 2px;
+    width: 130px;
+    height: 140px;
+}
+
+.taille2 {
+
+    border-radius: 2px;
+    width: 130px;
+    height: 140px;
+}
+
+.cat {
+    right: 150px;
+}
+
+.taillex {
+
+    border-radius: 2px;
+    width: 120px;
+    height: 130px;
+}
+
+.as {
+    left: 1500px;
+}
+
+input[type="text"] {
+    width: 380px;
+    height: 32px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 395px;
+    height: 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: solid 1px #ccc;
+    padding: 5px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+input[type="submit"], input[type="button"] {
+    width: 200px;
+    height: 45px;
+    background-color: #333333;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}

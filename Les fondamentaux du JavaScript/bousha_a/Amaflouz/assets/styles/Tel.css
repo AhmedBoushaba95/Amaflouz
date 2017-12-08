@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Abel';
+    src: url('Abel-Regular.ttf') format('truetype');
+url('Abel-Regular.woff') format('woff'),
+url('Abel-Regular.ttf') format('truetype'),
+url('Abel-Regular.svg') format('svg');
+}
+
+.produit-block{
+    position: absolute;
+    top: 26%;
+    left: 21%;
+}
+
+.produit{
+    display: inline-block;
+}
+
+h3{
+    font-family: Abel,serif;
+}
+
+img{
+    transition: all .5s;
+}
+
+img:hover{
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px #353535;
+    transition: all .5s;
+
+}
+
+.ajout{
+
+}
